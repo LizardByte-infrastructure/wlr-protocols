@@ -268,9 +268,6 @@
       <description summary="head manufacturer">
         This event describes the manufacturer of the head.
 
-        This must report the same make as the wl_output interface does in its
-        geometry event.
-
         Together with the model and serial_number events the purpose is to
         allow clients to recognize heads from previous sessions and for example
         load head-specific configurations back.
@@ -295,9 +292,6 @@
     <event name="model" since="2">
       <description summary="head model">
         This event describes the model of the head.
-
-        This must report the same model as the wl_output interface does in its
-        geometry event.
 
         Together with the make and serial_number events the purpose is to
         allow clients to recognize heads from previous sessions and for example
